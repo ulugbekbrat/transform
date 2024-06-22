@@ -1,0 +1,203 @@
+*{
+/* Пример сброса CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+}
+.box{
+    font-family: 'Roboto';
+    background: #F3D7B7;
+
+}
+header a{
+text-decoration: none;
+color: #333333;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.06px;
+letter-spacing: 1px;
+text-align: left;
+transition: 0.5s;
+
+}
+header{
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F3D7B7;
+
+}
+header img{
+    margin-left: 20px;
+    margin-top: 17px;
+}
+.alar{
+    margin-top: 17px;   
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ width: 400px;
+}
+.alar a:hover {
+    transform: scale(1.2);
+}
+.left1{
+    width: 464px;
+height: 367px;
+top: 176px;
+left: 50px;
+gap: 0px;
+border-radius: 100px 0px 0px 0px;
+opacity: 0px;
+
+}
+.left1 button{
+    width:198px;
+height: 51px;
+border-radius: 100px;
+background: #0A775F;
+border: none;
+color: white;
+padding-top: 18px;
+}
+.box{
+    /* border: 1px solid; */
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background: #F3D7B7;
+
+}
+.left1 h1{
+    font-family: Roboto;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+text-align: left;
+
+}
+.left1 p{
+    
+}
+.left1 {
+    margin: 0;
+    padding: 0;
+}
+.left1 h1 {
+    margin-bottom: 20px; /* Пространство под заголовком */
+}
+.left1 p {
+    margin-bottom: 20px; /* Пространство под абзацем */
+}
+.left1 button {
+    margin-top: 20px; /* Пространство над кнопкой */
+}
+.right1 img{
+    position: relative;
+    top: 70px;
+    z-index: 10;
+}
+.left1 img{
+    position: absolute;
+    bottom: 430px;
+    left: 600px;
+    z-index: 20;
+}
+.section2{
+    
+  
+    margin-top: 100px;
+
+}
+.box2{
+    font-family: 'Roboto';
+    margin-top: 100px;      
+   
+}
+.box2 h1{
+    
+}
+.text{
+    width: 400px;
+    height: 100px;
+}
+.bir{
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.ikki{
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.text2{
+    width: 400px;
+    height: 100px;
+}
+.section2 img{
+    transition: 0.5s;
+}
+.section2 img:hover{
+    transform: scale(1.1);
+}
+.ox{
+    width: 451.25px;
+height: 375px;
+top: 1759px;
+left: 159.45px;
+gap: 0px;
+opacity: 0px;
+
+}
+.fon{
+    background-image: url('./img/Group\ 3615.png');
+}
+footer{
+    background: #F3D7B7;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+height: 160px;
+
+
+}
+footer .alar a{
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: 'Roboto';
+    color:  #333333;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.75px;
+letter-spacing: 1px;
+text-align: center;
+
+}
+.priloj{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .priloj img{
+transition: 0.2s;
+}
+footer .priloj img:hover{
+    transform: scale(1.2);  
+}
+footer{
+    border: 2px solid #333333;
+}
